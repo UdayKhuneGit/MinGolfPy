@@ -13,7 +13,6 @@ lvl9 = [[0, winheight-36, 1200, 32, 'water'], [-8,0,16, 700, 'wall'], [winwidth-
 course1 = [lvl1, lvl2, lvl3, lvl4, lvl5, lvl6, lvl7, lvl8, lvl9]
 
 
-
 def getLvl(n=1):
     return course1[n - 1][:-1]
 
