@@ -43,6 +43,3 @@ def coinHit(lvl):
         if len(x) > 4:
             if x[4] == 'coin':
                 x[5] = False
-
-
-
